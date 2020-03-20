@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientApp\**" />
+    <Compile Remove="dist\**" />
+    <Compile Remove="moula-app\**" />
+    <Compile Remove="wwwroot\clientapp\**" />
+    <Compile Remove="wwwroot\css\**" />
+    <Content Remove="ClientApp\**" />
+    <Content Remove="dist\**" />
+    <Content Remove="moula-app\**" />
+    <Content Remove="wwwroot\clientapp\**" />
+    <Content Remove="wwwroot\css\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
+    <EmbeddedResource Remove="dist\**" />
+    <EmbeddedResource Remove="moula-app\**" />
+    <EmbeddedResource Remove="wwwroot\clientapp\**" />
+    <EmbeddedResource Remove="wwwroot\css\**" />
+    <None Remove="ClientApp\**" />
+    <None Remove="dist\**" />
+    <None Remove="moula-app\**" />
+    <None Remove="wwwroot\clientapp\**" />
+    <None Remove="wwwroot\css\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="angular.json" />
+    <Content Remove="tsconfig.app.json" />
+    <Content Remove="tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moula.Stage2.Data.TechnicalAssessment\Moula.Stage2.Data.TechnicalAssessment.csproj" />
+    <ProjectReference Include="..\Moula.Stage2.Services.TechnicalAssessment\Moula.Stage2.Services.TechnicalAssessment.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>

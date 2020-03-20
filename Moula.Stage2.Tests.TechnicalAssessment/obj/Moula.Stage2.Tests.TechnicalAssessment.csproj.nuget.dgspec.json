@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj",
+        "projectName": "Moula.Stage2.Data.TechnicalAssessment",
+        "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj",
+        "packagesPath": "C:\\Users\\linga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\linga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Z.EntityFramework.Plus.EFCore": {
+              "target": "Package",
+              "version": "[3.0.43, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj",
+        "projectName": "Moula.Stage2.Services.TechnicalAssessment",
+        "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj",
+        "packagesPath": "C:\\Users\\linga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\linga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\Moula.Stage2.TechnicalAssessment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\Moula.Stage2.TechnicalAssessment.csproj",
+        "projectName": "Moula.Stage2.TechnicalAssessment",
+        "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\Moula.Stage2.TechnicalAssessment.csproj",
+        "packagesPath": "C:\\Users\\linga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\linga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj"
+              },
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "OdeToCode.UseNodeModules": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment.csproj",
+        "projectName": "Moula.Stage2.Tests.TechnicalAssessment",
+        "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment.csproj",
+        "packagesPath": "C:\\Users\\linga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Tests.TechnicalAssessment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\linga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment\\Moula.Stage2.Data.TechnicalAssessment.csproj"
+              },
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment\\Moula.Stage2.Services.TechnicalAssessment.csproj"
+              },
+              "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\Moula.Stage2.TechnicalAssessment.csproj": {
+                "projectPath": "C:\\Users\\linga\\source\\repos\\MoulaTechnicalAssessment\\Moula.Stage2.TechnicalAssessment\\Moula.Stage2.TechnicalAssessment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
