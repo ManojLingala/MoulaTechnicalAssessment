@@ -8,7 +8,7 @@ namespace Moula.Stage2.Services.TechnicalAssessment.Services
    public interface IPaymentRepository
     {
         public string AddPayment(double amount, DateTime date, bool sufficeBal);
-        public string UpdatePayment(int id, string status);
+        public string UpdatePayment(int id, string status, string reason);
         public IEnumerable<Payment> GetPayments();
 
     }

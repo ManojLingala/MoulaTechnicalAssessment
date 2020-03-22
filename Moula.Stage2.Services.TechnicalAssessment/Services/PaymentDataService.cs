@@ -32,18 +32,19 @@ namespace Moula.Stage2.Services.TechnicalAssessment.Services
         }
 
 
-        public string UpdatePayment(int id, string status)
+        public string UpdatePayment(int id, string status, string reason)
         {
 
-            List<Payment> payment = _paymentContext.Payments.Where(c => c.ID == id).ToList();
-            foreach (Payment paymt in payment)
+            var payment= _paymentContext.Payments.Where(c => c.ID == id).FirstOrDefault();
+            if(payment!=null)
             {
-                paymt.Status = status;
+                payment.Status = status;
+                payment.Reason = reason;
+                _paymentContext.SaveChanges();
+                return "Success";
             }
 
-            _paymentContext.SaveChanges();
-
-            return "Success";
+            return "";
 
         }
 

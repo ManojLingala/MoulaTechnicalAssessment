@@ -34,7 +34,7 @@ namespace Moula.Stage2.TechnicalAssessment.Controllers
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
-        public string Post([FromBody] PayementCreateRequest payReq)
+        public string Post([FromBody] PaymentCreateRequest payReq)
         {
             try
             {
@@ -62,7 +62,7 @@ namespace Moula.Stage2.TechnicalAssessment.Controllers
         {
             try
             {
-                _paymentService.UpdatePayment(payReq.Id, payReq.Status);
+                _paymentService.UpdatePayment(payReq.Id, payReq.Status, payReq.Reason);
             }
             catch(Exception ex)
             {

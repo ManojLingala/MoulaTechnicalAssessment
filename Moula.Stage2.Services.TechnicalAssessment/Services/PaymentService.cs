@@ -25,10 +25,12 @@ namespace Moula.Stage2.Services.TechnicalAssessment.Services
             return _paymentDataService.GetPayments();
         }
 
-        public string UpdatePayment(int id, string status)
+
+        public string UpdatePayment(int id, string status, string reason)
         {
-            return _paymentDataService.UpdatePayment(id, status);
+            return _paymentDataService.UpdatePayment(id, status, reason);
         }
+      
        
     }
 }

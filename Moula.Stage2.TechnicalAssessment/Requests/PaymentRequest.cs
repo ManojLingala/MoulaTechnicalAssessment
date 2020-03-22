@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Moula.Stage2.TechnicalAssessment.Requests
 {
 
-    public class PayementCreateRequest
+    public class PaymentCreateRequest
     {
         public double Amount { get; set; }
         public DateTime Date { get; set; }
@@ -16,6 +16,7 @@ namespace Moula.Stage2.TechnicalAssessment.Requests
     {
         public int Id { get; set; }
         public string Status { get; set; }
+        public string Reason { get; set; }
     }
    
 }

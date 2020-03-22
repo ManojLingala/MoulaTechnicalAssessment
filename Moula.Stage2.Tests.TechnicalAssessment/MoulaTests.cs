@@ -13,7 +13,7 @@ namespace Moula.Stage2.Tests.TechnicalAssessment
 {
     /// <summary>
     /// 
-    /// AS I'm using Inmemory database and im not creating any mock objects
+    /// AS I'm using Inmemory database not creating any mock objects
     /// 
     /// </summary>
     public class MoulaTests
@@ -59,12 +59,13 @@ namespace Moula.Stage2.Tests.TechnicalAssessment
                 {
                     Amount = 10,
                     Status = "Pending",
+                    Reason = string.Empty, //Can be optional
                     Date = DateTime.UtcNow,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow
                 };
                 service.AddPayment(payment.Amount, payment.Date, true);
-                service.UpdatePayment(Id, Status);
+                service.UpdatePayment(Id, Status, payment.Reason);
             }
 
             using (var context = new PaymentContext(options))
